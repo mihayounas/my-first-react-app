@@ -2,12 +2,16 @@ import logo from './logo.svg';
 import './App.css';
 import FunctionalGreetingWithProps from './components/FunctionalGreetingWithProps';
 import StatefulGreeting from './components/StatefulComponents';
+import StatefulGreetingWithCallback from './components/StatefulGreetingWithCallback';
+import StatefulGreetingWithPrevState from './components/StatefulGreetingWithPrevState';
+import NavBarSimple from './components/NavBarSimple';
+import SideBar from './components/SideBar';
 
 function App() {
   return (
     <div className="App">
-      <StatefulGreeting greeting="I am stateful class component" name="Mike" />
-     
+      <NavBarSimple  />
+     <SideBar />
     </div>
   );
 }
