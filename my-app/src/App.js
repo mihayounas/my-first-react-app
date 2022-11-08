@@ -17,7 +17,7 @@ function App() {
     <div className={css.App}>
       <NavBarForm />
       <SideBar />
-      <Content />
+ 
    
   
     </div>
